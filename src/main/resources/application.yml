@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    username: user
+    password: password
+    url: jdbc:postgresql://localhost:5432/shoppinglist
+  jpa:
+    database: DEFAULT
+    hibernate.ddl-auto: validate
+    show-sql: true
